@@ -12,8 +12,12 @@ export class SimpleFormComponent implements OnInit {
   ngOnInit() {
   }
 
-  onClick(value){
+  onClick(event, value){
+    console.log(event);
     console.log(value);
   }
 
 }
+
+
+
