@@ -8,3 +8,10 @@
   {{mail.message}}
 </p>
 <h2>{{api}}</h2>
+<div>
+  <ul>
+    <li *ngFor="let item of mail.messages">
+      <strong>{{item}}</strong>
+    </li>
+  </ul>
+</div>
